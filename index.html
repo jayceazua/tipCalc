@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html>
-    <title>JUST THE TIP</title>
+<title>JUST THE TIP</title>
 
-    <head>
+<head>
 
-    </head>
-    <link rel="stylesheet" href="./css/styles.css">
-    <body>
+</head>
+<link rel="stylesheet" href="./css/styles.css">
+
+<body>
     <h1>Tip Calculator</h1>
 
+    <div>
+        <label for="amount">Bill:</label>
+        <input id="amount" type="number" value="0.00">
+    </div>
+
+    <div>
+        <label for="percent">Tip %</label>
+        <input id="percent" type="number" value="15">
+    </div>
+
+    <div>
+        <label for="people">Number of People:</label>
+        <input id="people" type="number" value="0">
+    </div>
+
+    <button id="calculate">Calculate</button>
+
+    <div>
+        <span>Tip:</span>
+        <span id="tip"></span>
+    </div>
+
+    <div>
+        <span>Total:</span>
+        <span id="total"></span>
+    </div>
 
 
-        <p>
-          <label for="amount">Bill</label>
-          <input id="amount" type="number" value="0.00">
-        </p>
 
-        <p>
-          <label for="percent">Tip %</label>
-          <input id="percent" type="number" value="15">
-        </p>
 
-        <button id="calculate">Calculate</button>
-
-        <p>
-          <span>Tip:</span>
-          <span id="tip"></span>
-        </p>
-
-        <p>
-          <label for="people">Number of People:</label>
-          <input id="people" type="number" value="0">
-        </p>
-
-        <p>
-          <span>Total:</span>
-          <span id="total"></span>
-        </p>
-        <h4>Per Person</h4>
-        <hr>
-        <p>
-          <span>Tip: </span>
-          <span id="tipEach"></span>
-        </p>
-        <p>
-          <span>Total:</span>
-          <span id="each"></span>
-        </p>
+    <hr>
+    <h4>Per Person</h4>
+    <div>
+        <span>Tip: </span>
+        <span id="tipEach"></span>
+    </div>
+    <div>
+        <span>Total: </span>
+        <span id="eachTotal"></span>
+    </div>
 
 
     <script src="./js/app.js"></script>
-    </body>
+</body>
+
 </html>
