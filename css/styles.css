@@ -2,5 +2,33 @@
     margin: 0 auto;
     display: block;
     width: 400px;
-    border: solid 1px red
+    padding: 10px;
+    background-color: lightgray;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.input-with-buttons {
+    display: flex;
+}
+.separate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.plusMinus {
+    border: 1px solid black;
+    
+}
+.input-with-buttons input {
+    width: 300px;
+}
+input[type="number"], button {
+    padding: 15px 20px;
+    margin: 5px 0px;
+    border: none;
 }
