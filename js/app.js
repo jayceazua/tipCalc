@@ -47,7 +47,6 @@ peopleMinus.onclick = (e) => {
     decreaseByOne(people);
 };
 
-
 // Calculate button function...
 calculate.onclick = (e) => {
     const billReal = parseInt(bill.value);

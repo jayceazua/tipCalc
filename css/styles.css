@@ -1,0 +1,6 @@
+.calculator {
+    margin: 0 auto;
+    display: block;
+    width: 400px;
+    border: solid 1px red
+}
